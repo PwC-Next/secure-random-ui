@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample Ruby on Rails application with AngularJS frontend that calls
+an external API to generate random hashes. The sole purpose is for standing up
+an automated test framework.
 
-Things you may want to cover:
+### Ruby version
 
-* Ruby version
+* 2.3.1
 
-* System dependencies
+### Clone the repo and run
 
-* Configuration
+```
+> gem install bundler
+> bundle install
+> bundle exec rails s
+```
 
-* Database creation
+### Hosted version can be found at:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+https://secure-random-ui.appspot.com/
+```
