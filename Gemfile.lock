@@ -40,6 +40,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    angularjs-rails (1.6.2)
     arel (8.0.0)
     bindex (0.5.0)
     builder (3.2.3)
@@ -59,6 +60,8 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
     i18n (0.8.4)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -78,6 +81,7 @@ GEM
     mini_portile2 (2.2.0)
     minitest (5.10.2)
     multi_json (1.12.1)
+    multi_xml (0.6.0)
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
@@ -161,8 +165,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  angularjs-rails
   byebug
   capybara (~> 2.13)
+  httparty
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)

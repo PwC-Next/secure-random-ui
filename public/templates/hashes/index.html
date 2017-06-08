@@ -1,0 +1,13 @@
+<h1>Secure Random Hexadecimal Strings</h1>
+
+<form ng-submit="process_form()">
+  Number of strings to generate
+  <input type="text" id="num_strings" name="num_strings" ng-model="form_data.num_strings" />
+  <input type="submit" />
+</form>
+
+<br/>
+
+<ul ng-show="hashes.length" ng-repeat="hash in hashes">
+  <li>{{hash}}</li>
+</ul>
